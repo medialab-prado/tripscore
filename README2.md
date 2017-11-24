@@ -18,7 +18,11 @@ Como usuarios del transporte público de una gran ciudad como Madrid estamos aco
 
 #### El cliente de datos enlazados Tripscore
 El cliente Tripscore es una aplicación web que se conforma de tres páginas diferentes:
-1) La página incial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar las estanciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario.
+1) La página incial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar las estanciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
+![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/tripscore.png)
+
+2) La página de preferencias del usuario, dónde, a través de un cuestionario cubierto por más de 50 usuarios se han recolectado las preferencias más relevantes que se debían tener en cuenta a la hora de puntuar las rutas de transporte. Cada una de las preferencias se acompaña con una explicación de la misma.
+![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/preferencias.png)
 
 #### El servidor de Linked Connections
 
