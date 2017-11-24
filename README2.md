@@ -18,7 +18,7 @@ Como usuarios del transporte público de una gran ciudad como Madrid estamos aco
 
 #### El cliente de datos enlazados Tripscore
 El cliente Tripscore es una aplicación web que se conforma de tres páginas diferentes:
-1) La página incial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar las estanciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
+1) La página incial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar las estaciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/tripscore.png)
 
@@ -26,7 +26,12 @@ El cliente Tripscore es una aplicación web que se conforma de tres páginas dif
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/preferencias.png)
 
-3) La página de 
+3) La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario a introducido en la página incial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 miuntos tendrán una puntuación más baja que las demás. Se puede ver un ejemplo en la siguiente imagenes:
+
+![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas2.png)
+
+![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas1.png)
+
 
 #### El servidor de Linked Connections
 
