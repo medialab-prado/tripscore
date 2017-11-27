@@ -38,11 +38,12 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 Este servidor es el encargado de transformar y proveer de un valor añadido a los datos proporcionados por la EMT en GTFS. Obteniendo los datos directamente desde la [fuente](http://opendata.emtmadrid.es/Datos-estaticos/Datos-generales#GoogleTransit) los transforma y publica siguiendo el vocabulario propuesto por Linked Connections, que se centra en modelar una conexión entre dos puntos. Al publicar los datos de esta manera, se consigue que cualquier aplicación, cliente o software pueda acceder a los mismos de una manera rápida y sencilla comprendiendo perfectamente la semántica de la inforamción que se proporciona. Así, se mejora la interoperabilidad entre diferentes fuentes de datos y se ofrece la posibilidad de consultar datos abiertos enlazados de muchas compañías de transporte sin la necesidad de que ninguna compañía o institución tenga que modificar sus datos o cambiar el formato de los mismo ya que actualmente GTFS es un estándar de facto y la mayoría de datos de transporte se exponen siguiendo este formato. Para acceder a estos datos se puede utilizar el siguiente ejemplo:
 
 `
-http://tripscore.lab.oeg-upm.net/server/emt/connections?departureTime=YYYY-MM-DDTHH:MM:SS.000Z
+
+http://tripscore.lab.oeg-upm.net/server/emt/connections?departureTime=YYYY-MM-DDThh:mm:ss.000Z
+
 `
 
-En dónde el parámentro "departureTime" establece la fecha y hora de los datos que se quieren mostrar. Cada consulta mostrará 10 minutos de conexiones en formato JSON-LD. En la siguiente imagen se puede ver un ejemplo de los datos que se han conseguido a través de la siguiente URL [http://tripscore.lab.oeg-upm.net/server/emt/connections?departureTime=2017-11-27T16:30:00.000Z](http://tripscore.lab.oeg-upm.net/server/emt/connections?departureTime=2017-11-27T16:30:00.000Z). Si se desea obtener más información sobre el funcionamiento del servidor se puede obtener a través del [siguiente enlace](https://github.com/dachafra/my-linked-connections-server) (en inglés).
-
+En dónde el parámentro "departureTime" establece la fecha y hora de los datos que se quieren mostrar. Cada consulta mostrará 10 minutos de conexiones en formato JSON-LD. En la siguiente imagen se puede ver un ejemplo de los [datos que obtenidos para el día 27 de Noviembre de 2017 a las 16:30 de la tarde](http://tripscore.lab.oeg-upm.net/server/emt/connections?departureTime=2017-11-27T16:30:00.000Z). Si se desea obtener más información sobre el funcionamiento del servidor se puede obtener a través del [siguiente enlace](https://github.com/dachafra/my-linked-connections-server) (en inglés).
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/linkedconnections.png)
 
