@@ -34,6 +34,8 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas1.png)
 
 
+
+
 #### El servidor de Linked Connections
 Este servidor es el encargado de transformar y proveer de un valor añadido a los datos proporcionados por la EMT en GTFS. Obteniendo los datos directamente desde la [fuente](http://opendata.emtmadrid.es/Datos-estaticos/Datos-generales#GoogleTransit) los transforma y publica siguiendo el vocabulario propuesto por Linked Connections, que se centra en modelar una conexión entre dos puntos. Al publicar los datos de esta manera, se consigue que cualquier aplicación, cliente o software pueda acceder a los mismos de una manera rápida y sencilla comprendiendo perfectamente la semántica de la información que se proporciona. Así, se mejora la interoperabilidad entre diferentes fuentes de datos y se ofrece la posibilidad de consultar datos abiertos enlazados de muchas compañías de transporte sin la necesidad de que ninguna compañía o institución tenga que modificar sus datos o cambiar el formato de los mismo ya que actualmente GTFS es un estándar de facto y la mayoría de datos de transporte se exponen siguiendo este formato. Para acceder a estos datos se puede utilizar el siguiente ejemplo:
 
@@ -46,8 +48,11 @@ En dónde el parámetro "departureTime" establece la fecha y hora de los datos q
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/linkedconnections.png)
 
 
+
+
 #### API con información de las paradas
 Por último se ha desarrollado una API a la que también se puede acceder en [http://tripscore.lab.oeg-upm.net/api](http://tripscore.lab.oeg-upm.net/api) y que ofrece información estática sobre las paradas de los autobuses como su identificar único en la nube de Linked Open Data, su nombre o el tipo de transporte que pasa por esa parada. Se pueden realizar búsquedas en función de la compañía de transporte, por el tipo de transporte o el nombre de la estación.
+
 
 
 ### El código
@@ -56,10 +61,12 @@ Todo el código (bajo la licencia MIT) se encuentra accesible en los siguientes 
 + Servidor Linked Connections: https://github.com/dachafra/linked-connections-server
 + API con estaciones: https://github.com/dachafra/oasis-backend
 
+
+
 ## Trabajo futuro
 El desarrollo de la aplicación no terminará con la finalización del DataMad. Se han definido varias tareas a realizar en relación a la ciudad de Madrid pero también a nivel estatal:
 + Añadir preferencia de usuario sobre la ocupación de los autobuses a partir de los datos de las validaciones de las tarjetas de transporte disponibles en este [SPARQL Endpoint](http://crtm.linkeddata.es/sparql)
-+ Incluir los conjuntos de [datos abiertos en GTFS](http://datos.crtm.es/) del metro, cerncanías, metro ligero y autobuses interurbanos proporcionados por el Consorcio Regional de Transportes de Madrid
++ Incluir los conjuntos de [datos abiertos en GTFS](http://datos.crtm.es/) del metro, cercanías, metro ligero y autobuses interurbanos proporcionados por el Consorcio Regional de Transportes de Madrid
 + Incluir conjuntos de datos abiertos de transporte de otras ciudades y otros portales de datos abiertos como [Cáceres](http://opendata.caceres.es/dataset/autobuses-caceres), [Barcelona](https://opendata.tram.cat/) o [Las Palmas de Gran Canaria](http://datosabiertos.laspalmasgc.es/resource/?ds=guaguas-municipales&id=2bdf9c39-634c-4b6b-8754-89c7dd47abfd#data)
 
 
