@@ -40,9 +40,9 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 
 
 ## Colaboradores
-David Chaves - [@dchavesf](https://twitter.com/dchavesf).  
-Oscar Orlando - [@oscarceballos](https://github.com/oscarceballos). 
-Victor Fernández - [@vfrico](https://github.com/vfrico). 
+David Chaves - [@dchavesf](https://twitter.com/dchavesf)  
+Oscar Orlando - [@oscarceballos](https://github.com/oscarceballos)   
+Victor Fernández - [@vfrico](https://github.com/vfrico) 
 
 
 ## Agradecimientos
