@@ -1,5 +1,5 @@
 # Tripscore: recomendando rutas en la ciudad de Madrid
-Como usuarios del transporte público de una gran ciudad como Madrid estamos acostumbrados a no llegar a tiempo a nuestras citas debido a que el autobús se ha retrasado, hemos perdido el enlace con el metro o porque hemos tenido que hacer 4 transbordos para llegar. Estos son sólo algunos ejemplos de lo que pasa a diario en Madrid en relación al uso del transporte público. ¿Qué pasaría si los usuarios pudiesen obtener recomendaciones en función de sus propias preferencias sobre cuál es la mejor ruta que deben tomar? Eso es exactamente lo que hace Tripscore, en base a la recolección y procesamiento de datos históricos de transporte y su comparación con las preferencias de los usuarios, es capaz de recomendar y puntuar las diferentes opciones existentes para una misma ruta.
+Como usuarios del transporte público de una gran ciudad como Madrid estamos acostumbrados a no llegar a tiempo a nuestras citas debido a que el autobús se ha retrasado, hemos perdido el enlace con el metro o porque hemos tenido que hacer 4 transbordos para llegar. Estos son sólo algunos ejemplos de lo que pasa a diario en Madrid en relación al uso del transporte público. ¿Qué pasaría si los usuarios pudiesen obtener recomendaciones en función de sus propias preferencias sobre cuál es la mejor ruta que deben tomar? Eso es exactamente lo que hace Tripscore, en base a la recolección y procesamiento de datos históricos de transporte y su comparación con las preferencias de los usuarios, es capaz de recomendar y puntuar las diferentes opciones existentes para una misma ruta. En este caso particular, a través de los datos abiertos de la Empresa Municipal de Transportes de Madrid, Tripscore es capaz de recomendar rutas de los autobuses de la ciudad a partir de las paradas de salida y llegada del usuario y la fecha del viaje.
 
 ## Casos de uso
 A lo largo del proyecto hemos identificado 3 casos de uso, 2 relacionados con las necesidades de la ciudadanía en lo que concierne al uso y el servicio del transporte público en Madrid y un tercer caso de uso en relación a buenas prácticas en la públicación de datos del dominio:
@@ -12,7 +12,7 @@ A lo largo del proyecto hemos identificado 3 casos de uso, 2 relacionados con la
 
 
 ## La solución: Tripscore
-
+Tripscore es una aplicación web que se puede ejecutar tanto en un navegador web como a través de cualquier smartphone que tenga acceso a internet. A través de ella se puede consultar multiples datos sobre las diferentes rutas de los autobuses de la EMT como por ejemplo el tiempo medio del viaje, el número de transbordos necesarios para llegar al destino o la media del tiempo que la ruta se suele retrasar. Además, cada usuario puede configurar sus propias preferencias como el tiempo aceptable de retraso en una ruta o el tiempo necesario para realizar intercambios entre rutas. Estas preferenciasn influirán en la puntuación de cada una las rutas con un sistema de estrellas con la idea de ofrecer al usuario la ruta que más se le acomode a sus prioridades. Para llevar a cabo esta idea se han implementado tres partes diferenciadas: el cliente o aplicación web que consume datos enlazados de transporte, el servidor que proporciona dichos datos enlazados siguiendo el vocabulario de Linked Connections y por último, una API que contiene información sobre las paradas o estaciones de cada una de las empresas que se pueden consultar a través del cliente. A continuación detallamos cada una de esas partes:
 
 
 ### El desarrollo
@@ -37,6 +37,9 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 #### El servidor de Linked Connections
 
 #### API con información de las paradas
+
+## Trabajo futuro
+El desarrollo de la aplicación no terminará con la finalización del DataMad. 
 
 
 ## Colaboradores
