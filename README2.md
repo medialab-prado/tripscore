@@ -27,7 +27,7 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/preferencias.png)
 
-3) La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario a introducido en la página incial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 miuntos tendrán una puntuación más baja que las demás. Se puede ver un ejemplo en la siguiente imagenes:
+3) La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario ha introducido en la página incial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 miuntos tendrán una puntuación más baja que las demás. Se puede ver un ejemplo en la siguiente imagenes:
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas2.png)
 
@@ -35,6 +35,11 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 
 
 #### El servidor de Linked Connections
+Este servidor es el encargado de transformar y proveer de un valor añadido a los datos proporcionados por la EMT en GTFS. Obteniendo los datos directamente desde la [fuente](http://opendata.emtmadrid.es/Datos-estaticos/Datos-generales#GoogleTransit) los transforma y publica siguiendo el vocabulario propuesto por Linked Connections, que se centra en modelar una conexión entre dos puntos. Al publicar los datos de esta manera, se consigue que cualquier aplicación, cliente o software pueda acceder a los mismos de una manera rápida y sencilla comprendiendo perfectamente la semántica de la inforamción que se proporciona. Así, se mejora la interoperabilidad entre diferentes fuentes de datos y se ofrece la posibilidad de consultar datos abiertos enlazados de muchas compañías de transporte sin la necesidad de que ninguna compañía o institución tenga que modificar sus datos o cambiar el formato de los mismo ya que actualmente GTFS es un estándar de facto y la mayoría de datos de transporte se exponen siguiendo este formato. Para acceder a estos datos se puede utilizar el siguiente ejemplo:
+`
+http://tripscore.lab.oeg-upm.net/server/emt/connections?departureTime=YYYY-MM-DDTHH:MM:SS.000Z
+`
+
 
 #### API con información de las paradas
 
