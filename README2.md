@@ -51,10 +51,10 @@ En dónde el parámetro "departureTime" establece la fecha y hora de los datos q
 
 
 ## El código
-Todo el código (bajo la licencia MIT) se encuentra accesible en los siguientes repositorios:
-Cliente tripscore: https://github.com/dachafra/oasis-frontend  
-Servidor Linked Connections: https://github.com/dachafra/linked-connections-server  
-API con estaciones: https://github.com/dachafra/oasis-backend  
+Todo el código (bajo la licencia MIT) se encuentra accesible en los siguientes repositorios:  
++ Cliente tripscore: https://github.com/dachafra/oasis-frontend
++ Servidor Linked Connections: https://github.com/dachafra/linked-connections-server
++ API con estaciones: https://github.com/dachafra/oasis-backend
 
 ## Trabajo futuro
 El desarrollo de la aplicación no terminará con la finalización del DataMad. 
