@@ -2,7 +2,7 @@
 Como usuarios del transporte público de una gran ciudad como Madrid estamos acostumbrados a no llegar a tiempo a nuestras citas debido a que el autobús se ha retrasado, hemos perdido el enlace con el metro o porque hemos tenido que hacer 4 transbordos para llegar. Estos son sólo algunos ejemplos de lo que pasa a diario en Madrid en relación al uso del transporte público. ¿Qué pasaría si los usuarios pudiesen obtener recomendaciones en función de sus propias preferencias sobre cuál es la mejor ruta que deben tomar? Eso es exactamente lo que hace Tripscore, en base a la recolección y procesamiento de datos históricos de transporte y su comparación con las preferencias de los usuarios, es capaz de recomendar y puntuar las diferentes opciones existentes para una misma ruta.
 
 ## Casos de uso
-A lo largo del proyecto hemos identificado 3 casos de uso, 2 relacionados con las necesidades de la ciudadanía en lo que concierne al uso y el servido del transporte público en Madrid y un tercer caso de uso en relación a buenas prácticas sobre la públicación de datos del dominio:
+A lo largo del proyecto hemos identificado 3 casos de uso, 2 relacionados con las necesidades de la ciudadanía en lo que concierne al uso y el servicio del transporte público en Madrid y un tercer caso de uso en relación a buenas prácticas en la públicación de datos del dominio:
 
 1) Adolfo vive en muy cerca del Paseo de la Castellana, a la altura del Estadio Santiago Bernabeu. Todos los días debe desplazarse hasta su lugar de trabajo en Medialab-Prado haciendo uso del transporte público. Consultando [Google Maps](https://www.google.es/maps/dir/Estadio+Santiago+Bernab%C3%A9u,+Av.+de+Concha+Espina,+1,+28036+Madrid/Medialab-Prado,+Calle+de+la+Alameda,+Madrid/@40.4300961,-3.7131846,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0xd4228e23705d39f:0xa8fff6d26e2b1988!2m2!1d-3.6883445!2d40.4530541!1m5!1m1!1s0xd4226288a4fb7f7:0xd69ac9ed8a94df3d!2m2!1d-3.6937908!2d40.4105268!3e3) este le ofrece hasta 4 formas diferentes de llegar a su trabajo pero, aunque la aplicación le ofrece una estipulación del tiempo que tardará en viajar, no sabe muy bien cuál será la ruta que se le adapte mejor a sus necesidades ya que sabe que no tiene en cuenta variables como el tráfico o los habituales parones en el metro. Como ha recibido la noticia de que está semana habrá restricciones de tráfico en Madrid debido a la contaminación ha descartado las opciones del bus y ha escogido la opción del metro. Al utilizar esa opción ha tenido que hacer un transbordo en la estación de Tribunal y, además de tener que subir un montón de escaleras rodeado de mucha gente, ha llegado tarde al trabajo debido a que se ha encontrado la linea que le llevaba al trabajo cerrada y no le ha quedado más remedio que subirse a un taxi. Al día siguiente, y aún sabiendo que habrá tráfico, escoge la opción del autobús ya que no tiene que hacer ningún intercambio entre líneas y le deja muy cerca de Medialab-Prado. Aunque se retrasó 10 min en comparación con el tiempo que le había proporcionado Google Maps, tiene claro que es mejor que tener que coger un taxi. Adolfo ha buscado en las tienda de aplicaciones de su smartphone otras aplicaciones de transporte para Madrid, pero todas se parecen mucho a Google Maps y no le cubren las necesidades que el tiene ni tienen en cuenta las preferencias que, como usuario, demanda del servicio.
 
@@ -40,9 +40,9 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 
 
 ## Colaboradores
-David Chaves - [@dchavesf](https://twitter.com/dchavesf)
-Oscar Orlando - [@oscarceballos](https://github.com/oscarceballos)
-Victor Fernández - [@vfrico](https://github.com/vfrico)
+David Chaves - [@dchavesf](https://twitter.com/dchavesf).  
+Oscar Orlando - [@oscarceballos](https://github.com/oscarceballos). 
+Victor Fernández - [@vfrico](https://github.com/vfrico). 
 
 
 ## Agradecimientos
