@@ -57,9 +57,9 @@ Por último se ha desarrollado una API a la que también se puede acceder en [ht
 
 ### El código
 Todo el código (bajo la licencia MIT) se encuentra accesible en los siguientes repositorios:  
-+ Cliente tripscore: https://github.com/dachafra/oasis-frontend
-+ Servidor Linked Connections: https://github.com/dachafra/linked-connections-server
-+ API con estaciones: https://github.com/dachafra/oasis-backend
++ Cliente tripscore: [https://github.com/dachafra/oasis-frontend](https://github.com/dachafra/oasis-frontend)
++ Servidor Linked Connections: [https://github.com/dachafra/linked-connections-server](https://github.com/dachafra/linked-connections-server)
++ API con estaciones: [https://github.com/dachafra/oasis-backend](https://github.com/dachafra/oasis-backend)
 
 
 
