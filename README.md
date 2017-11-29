@@ -1,3 +1,8 @@
+
+---
+title: null
+---
+
 # Tripscore: recomendando rutas en la ciudad de Madrid
 Como usuarios del transporte público de una gran ciudad como Madrid estamos acostumbrados a no llegar a tiempo a nuestras citas debido a que el autobús se ha retrasado, hemos perdido el enlace con el metro o porque hemos tenido que hacer 4 transbordos para llegar. Estos son sólo algunos ejemplos de lo que pasa a diario en Madrid en relación al uso del transporte público. ¿Qué pasaría si los usuarios pudiesen obtener recomendaciones en función de sus propias preferencias sobre cuál es la mejor ruta que deben tomar? Eso es exactamente lo que hace Tripscore, en base a la recolección y procesamiento de datos históricos de transporte y su comparación con las preferencias de los usuarios, es capaz de recomendar y puntuar las diferentes opciones existentes para una misma ruta. En este caso particular, a través de los datos abiertos de la Empresa Municipal de Transportes de Madrid, Tripscore es capaz de recomendar rutas de los autobuses de la ciudad a partir de las paradas de salida y llegada y la fecha del viaje.
 
@@ -18,10 +23,10 @@ Tripscore es una aplicación web que se puede ejecutar tanto en un navegador web
 ### El desarrollo
 
 #### El cliente de datos enlazados Tripscore
-El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.oeg-upm.net/](http://tripscore.lab.oeg-upm.net/), que se conforma de tres páginas diferentes:
+El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.oeg-upm.net/](http://tripscore.lab.oeg-upm.net/), que se conforma de tres páginas diferentes:  
 1. La página inicial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar, las estaciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
 
-![La imagen no ha cargado](../master/imagenes/tripscore.png)
+![La imagen no ha cargado](../master/imagenes/tripscore.png?raw=true)
 
 2. La página de preferencias del usuario, dónde se listan las diferentes posibilidades para cada usuario. Estas preferencias se identificaron a través de un cuestionario cubierto por más de 50 usuarios. Cada una de las preferencias se acompaña con una explicación de la misma.
 
