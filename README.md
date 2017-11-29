@@ -19,15 +19,15 @@ Tripscore es una aplicación web que se puede ejecutar tanto en un navegador web
 
 #### El cliente de datos enlazados Tripscore
 El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.oeg-upm.net/](http://tripscore.lab.oeg-upm.net/), que se conforma de tres páginas diferentes:  
-1. La página inicial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar, las estaciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
++ La página inicial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar, las estaciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/tripscore.png?raw=true)
 
-2. La página de preferencias del usuario, dónde se listan las diferentes posibilidades para cada usuario. Estas preferencias se identificaron a través de un cuestionario cubierto por más de 50 usuarios. Cada una de las preferencias se acompaña con una explicación de la misma.
++ La página de preferencias del usuario, dónde se listan las diferentes posibilidades para cada usuario. Estas preferencias se identificaron a través de un cuestionario cubierto por más de 50 usuarios. Cada una de las preferencias se acompaña con una explicación de la misma.
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/preferencias.png?raw=true)
 
-3. La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario ha introducido en la página inicial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 minutos tendrán una puntuación más baja que las demás. Se puede ver un ejemplo en las siguientes imágenes:
++ La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario ha introducido en la página inicial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 minutos tendrán una puntuación más baja que las demás. Se puede ver un ejemplo en las siguientes imágenes:
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas2.png?raw=true)
 
