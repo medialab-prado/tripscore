@@ -19,7 +19,7 @@ Tripscore es una aplicación web que se puede ejecutar tanto en un navegador web
 
 #### El cliente de datos enlazados Tripscore
 El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.oeg-upm.net/](http://tripscore.lab.oeg-upm.net/), que se conforma de tres páginas diferentes:  
-+ La página inicial, en dónde el usuario puede escoger las paradas de salida y llegada, de las que se proporciona a través de iconos que tipo de transporte pasa por las paradas y la empresa a la que pertencen, y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo con dos paradas de la EMT para un viaje los jueves a las 9:30 de la mañana:
++ La página inicial, en dónde el usuario puede escoger las paradas de salida y llegada y la fecha del viaje. De cada parada, además del nombre, se muestra información sobre el tipo de transporte y la empresa a la que pertence esa parada a través de iconos. Además, en la parte izquierda de la pantalla se mostrará un historial de los viajes más consultados por el usuario. En la imagen se muestra un ejemplo con dos paradas de la EMT para un viaje los jueves a las 9:30 de la mañana:
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/tripscore.png?raw=true)
 
