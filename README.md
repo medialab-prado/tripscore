@@ -73,12 +73,11 @@ El desarrollo de la aplicación no terminará con la finalización del DataMad. 
 
 ## Colaboradores
 David Chaves - [@dchavesf](https://twitter.com/dchavesf)  
-Oscar Orlando - [@oscarceballos](https://github.com/oscarceballos)   
-Victor Fernández - [@vfrico](https://github.com/vfrico) 
+Oscar Orlando - [@oscarceballos](https://github.com/oscarceballos)
 
 
 ## Agradecimientos
-Queremos agradecer a [Carlos Badenes](https://github.com/cbadenes) y Raúl Alcazar, miembros del OEG, por su ayuda para crear todo el ecosistema desarrollado con Docker y Rancher y al proyecto europeo [OASIS](https://oasis.team/) por dar soporte a esta iniciativa, primero en Bélgica y ahora en Madrid.
+Queremos agradecer a [Carlos Badenes](https://github.com/cbadenes) y Raúl Alcazar, miembros del OEG, por su ayuda para crear todo el ecosistema desarrollado con Docker y Rancher, al proyecto europeo [OASIS](https://oasis.team/) por dar soporte a esta iniciativa, primero en Bélgica y ahora en Madrid y a los chicos de la Asociación de Radio de la Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación de la Universidad Politécnica de Madrid por la [entrevista](https://twitter.com/dchavesf/status/936302793023016960)
 
 
 
