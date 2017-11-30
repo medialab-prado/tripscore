@@ -19,7 +19,7 @@ Tripscore es una aplicación web que se puede ejecutar tanto en un navegador web
 
 #### El cliente de datos enlazados Tripscore
 El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.oeg-upm.net/](http://tripscore.lab.oeg-upm.net/), que se conforma de tres páginas diferentes:  
-+ La página inicial, en dónde el usuario puede escoger el país, la ciudad o el conjunto de datos que quiere consultar, las estaciones de salida y llegada y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo:
++ La página inicial, en dónde el usuario puede escoger las paradas de salida y llegada, de las que se proporciona a través de iconos que tipo de transporte pasa por las paradas y la empresa a la que pertencen, y la fecha del viaje. Además, en la parte izquierda de la pantalla se mostrarán los viajes más consultados por el usuario. En la imagen se muestra un ejemplo con dos paradas de la EMT para un viaje los jueves a las 9:30 de la mañana:
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/tripscore.png?raw=true)
 
@@ -27,11 +27,11 @@ El cliente Tripscore es una aplicación web, accesible en [http://tripscore.lab.
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/preferencias.png?raw=true)
 
-+ La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario ha introducido en la página inicial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 minutos tendrán una puntuación más baja que las demás. Se puede ver un ejemplo en las siguientes imágenes:
-
-![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas2.png?raw=true)
++ La página que muestra las diferentes rutas en función de la fecha y las estaciones de salida y llegada que el usuario ha introducido en la página inicial. Cada ruta encontrada se puntúa en función de las preferencias que el usuario haya establecido. Por ejemplo, si el usuario ha establecido que acepta que la ruta se suela retrasar una media de 5 minutos pero no acepta que haya que realizar ningún transbordo para llegar a su destino, las rutas con transbordo y que se retrasen una media de más de 5 minutos tendrán una puntuación más baja que las demás. En la primera imagen se puede ver un ejemplo para las diferentes rutas que existen entre las paradas 2994 - Estacion Fuencarral y 5871 - Las Tablas de la EMT a las 8:30 de la mañana de un jueves cualquiera. Tripscore muestra opciones en un espacio de dos horas a contar a partir de la hora fijada por el usuario, en este caso particular, se mostrarán las rutas existentes hasta las 10:30 de la mañana. En la segunda imagen se puede observar información de una ruta en concreto como la duración media del viaje, el retraso que suele sufrir esa linea o el número de semanas que la aplicación ha tenido en cuenta para calcular estos resultados.
 
 ![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas1.png?raw=true)
+
+![La imagen no ha cargado](https://github.com/medialab-prado/tripscore/blob/master/imagenes/rutas2.png?raw=true)
 
 
 
